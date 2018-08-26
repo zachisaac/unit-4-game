@@ -1,3 +1,134 @@
 body {
-    background-image: url(../images/star-wars-wallpaper.jpg);
+    background-image: url(../images/Death-Star.jpg);
+}
+
+.container {
+    max-width: 968px;
+    height: 100%;
+}
+
+
+/* ----- header ------*/
+
+h1 {
+    color: rgb(241, 229, 53);
+    font-family: 'Star Jedi', arial;
+    font-size: 3em;
+    margin: 10px 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* ----- content ------ */
+
+.characterImg,
+.enemyImg,
+.defenderImg,
+.userCharacter {
+    width: 100px;
+    height: 60px;
+    padding: 6px;
+}
+
+.characters,
+.enemies,
+#defender,
+.userCharacters {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#charactersHeader {
+    color: rgb(248, 52, 52);
+}
+
+.clear {
+    margin: 10px;
+}
+
+#attackHolder {
+    text-align: center;
+}
+
+.rightSide,
+.fightSection {
+    color: rgb(72, 255, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+.characterName,
+.characterHP,
+.userCharacterHP,
+.enemyName,
+.defenderName,
+.defenderHP,
+.enemyHP {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.characterName,
+.enemyName,
+.defenderName {
+    padding-top: 2px;
+}
+
+.characters,
+.userCharacters,
+.enemies {
+    background-color: #fff;
+    color: #000;
+}
+
+.enemies, .characters {
+    margin: 5px;
+}
+
+.enemyImg,
+.enemyName,
+.enemyHP {
+    background-color: #e60000;
+    color: rgb(196, 37, 37);
+}
+
+.defenderImg,
+.defenderName,
+.defenderHP {
+    background-color: #000;
+    color: #fff;
+}
+
+#reset {
+    margin-top: 40px;
+}
+
+#info {
+    margin: 10px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.refresh {
+    font-size: 11px;
+    color: aqua;
+    margin-bottom: 4px;
+}
+
+.btn-primary {
+    background-color: #06c;
+}
+
+#enemies {
+    margin-top: -15px;
+}
+/* footer */
+footer {
+    font-size: 10px;
+    background-color: rgba(245, 73, 245, 0.84);
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
 }
